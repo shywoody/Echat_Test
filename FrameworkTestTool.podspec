@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FrameworkTestTool"
-  s.version      = "1.0.1"
+  s.version      = "1.0.0"
   s.summary      = "be happy,my friend"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-仅仅是个测试
+仅仅是个测试123123123132
                    DESC
 
   s.homepage     = "https://github.com/shywoody/FrameworkTest.git"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/shywoody/FrameworkTest.git, :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/shywoody/FrameworkTest.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -107,8 +107,8 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-  s.source_files = 'FrameworkTest/EchatCommon.framework/Headers/*.{h}'
-  s.ios.vendored_frameworks = 'FrameworkTest/EchatCommon.framework'
+  s.source_files = 'EchatCommon/EchatCommon.framework/Headers/*.{h}'
+  s.ios.vendored_frameworks = 'EchatCommon/EchatCommon.framework'
 
 # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
