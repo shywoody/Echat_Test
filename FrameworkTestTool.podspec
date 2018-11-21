@@ -137,5 +137,7 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-
+  s.dependency 'AMap3DMap','6.2.0'
+  s.dependency 'AMapSearch','6.1.0'
+  s.dependency 'AMapFoundation','1.5.0'
 end
