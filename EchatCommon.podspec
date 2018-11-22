@@ -105,8 +105,8 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-   s.resource  = "EchatResouce.bundle"
-  # s.resources = "Resources/*.png"
+# s.resource  = "EchatResouce.bundle"
+   s.resources = "EchatResouce.bundle"
   s.source_files = 'EchatCommon/EchatCommon.framework/Headers/*.{h}'
   s.ios.vendored_frameworks = 'EchatCommon/EchatCommon.framework'
 
