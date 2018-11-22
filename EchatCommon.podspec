@@ -122,7 +122,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
   s.frameworks = "Foundation","UIKit","CFNetwork","SystemConfiguration","JavaScriptCore","GLKit","OpenGLES","CoreGraphics","QuartzCore","CoreLocation","CoreTelephony","AdSupport","Security"
-  s.libraries = "stdc__.tbd", "z.tbd","c++.tbd","icucore.tbd"
+  s.libraries = "stdc++.tbd", "z.tbd","c++.tbd","icucore.tbd"
   # s.library   = "iconv"
 
 
