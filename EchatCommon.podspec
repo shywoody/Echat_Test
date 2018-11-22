@@ -121,10 +121,10 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-  s.frameworks = "Foundation","UIKit"
-
+  s.frameworks = "Foundation","UIKit","CFNetwork","SystemConfiguration","JavaScriptCore","GLKit","OpenGLES","CoreGraphics","QuartzCore","CoreLocation","CoreTelephony","AdSupport"."Security"
+s.libraries = "libstdc__.tbd", "libz.tbd","libc++.tbd","libicucore.tbd"
   # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
+
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -137,7 +137,7 @@ Pod::Spec.new do |s|
 
  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
  # s.dependency "JSONKit", "~> 1.4"
- # s.dependency 'AMap3DMap','6.2.0'
- # s.dependency 'AMapSearch','6.1.0'
- # s.dependency 'AMapFoundation','1.5.0'
+s.dependency 'AMap3DMap','6.2.0'
+s.dependency 'AMapSearch','6.1.0'
+s.dependency 'AMapFoundation','1.5.0'
 end
