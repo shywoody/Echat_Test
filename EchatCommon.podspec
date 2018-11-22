@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "FrameworkTestTool"
+  s.name         = "EchatCommon"
   s.version      = "1.0.1"
   s.summary      = "be happy,my friend"
 
@@ -135,9 +135,9 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
-  s.dependency 'AMap3DMap','6.2.0'
-  s.dependency 'AMapSearch','6.1.0'
-  s.dependency 'AMapFoundation','1.5.0'
+ # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+ # s.dependency "JSONKit", "~> 1.4"
+ # s.dependency 'AMap3DMap','6.2.0'
+ # s.dependency 'AMapSearch','6.1.0'
+ # s.dependency 'AMapFoundation','1.5.0'
 end
