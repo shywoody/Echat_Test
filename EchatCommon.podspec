@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EchatCommon"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "be happy,my friend"
 
   # This description is used to generate tags and improve search results.
@@ -24,9 +24,11 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = 'SDKApha'
+s.description  = <<-DESC
+abdasdlwmas;ldkal;dksf;laksfoekfadfas;lasdfjafsa
+DESC
 
-  s.homepage     = "https://github.com/shywoody/Echat_Test.git"
+  s.homepage     = "https://github.com/shywoody/Echat_Test"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -104,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
  # s.resource  = "Resource/EchatResouce.bundle"
-   s.resources = "Resource/EchatResouce.bundle"
+   s.resources = "Resource/EchatResource.bundle"
   s.source_files = 'EchatCommon/EchatCommon.framework/Headers/*.{h}','EchatVisitorPort/EchatVisitorPort.framework/Headers/*.{h}'
   s.ios.vendored_frameworks = 'EchatCommon/EchatCommon.framework','EchatVisitorPort/EchatVisitorPort.framework'
 
