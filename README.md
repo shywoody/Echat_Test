@@ -1,2 +1,2 @@
 # FrameworkTest
-- 个人测试一些东西
+- SDK打包上传至cocoaPods
