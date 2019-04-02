@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EchatCommon"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "be happy,my friend"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source = { :git => "https://github.com/shywoody/FrameworkTest.git", :tag => "#{s.version}" }
+  s.source = { :git => "https://github.com/shywoody/Echat_Test.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
 
  # s.resource  = "Resource/EchatResouce.bundle"
    s.resources = "Resource/EchatResouce.bundle"
-  s.source_files = 'EchatCommon/EchatCommon.framework/Headers/*.{h}'
+  s.source_files = 'EchatCommon/EchatCommon.framework/Headers/*.{h}','EchatCommon/EchatCommon.framework/Headers/*.{h}'
   s.ios.vendored_frameworks = 'EchatCommon/EchatCommon.framework'
 
 # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
