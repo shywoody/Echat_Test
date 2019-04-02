@@ -1,0 +1,32 @@
+{
+    "zh-TW":{
+        "chatFailCancel":"返回",
+        "chatFailContent":"對話接入失敗，是否重試?",
+        "chatFailRetry":"重試",
+        "chatFailTitle":"對話失敗",
+        "endChat":"關閉對話",
+        "leaveWordTitle":"留言",
+        "noNetWork":"網絡連接失敗",
+        "waitingTitle":"等待接入"
+    },
+    "en":{
+        "chatFailCancel":"Cancel",
+        "chatFailContent":"chat failed. Do you want to retry?",
+        "chatFailRetry":"Retry",
+        "chatFailTitle":"Chat Failed",
+        "endChat":"End Chat",
+        "leaveWordTitle":"Leave Message",
+        "noNetWork":"network connect failed",
+        "waitingTitle":"waiting to chat"
+    },
+    "zh":{
+        "chatFailCancel":"返回",
+        "chatFailContent":"对话接入失败，是否重试?",
+        "chatFailRetry":"重试",
+        "chatFailTitle":"对话失败",
+        "endChat":"关闭对话",
+        "leaveWordTitle":"留言",
+        "noNetWork":"网络连接失败",
+        "waitingTitle":"等待接入"
+    }
+}

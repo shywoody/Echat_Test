@@ -1,0 +1,548 @@
+{
+    "convertInfo": [
+                    {
+                    "original": "af-ZA",
+                    "changeTo": "af"
+                    },
+                    {
+                    "original": "sq-AL",
+                    "changeTo": "sq"
+                    },
+                    {
+                    "original": "ar-DZ",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "ar-BH",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "ar-EG",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "ar-IQ",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "ar-JO",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "ar-KW",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "ar-LB",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "ar-LY",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "ar-MA",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "ar-OM",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "ar-QA",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "ar-SA",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "ar-SY",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "af-za",
+                    "changeTo": "af"
+                    },
+                    {
+                    "original": "ar-TN",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "ar-AE",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "ar-YE",
+                    "changeTo": "ar"
+                    },
+                    {
+                    "original": "hy-AM",
+                    "changeTo": "hy"
+                    },
+                    {
+                    "original": "az-AZ-Cyrl",
+                    "changeTo": "az"
+                    },
+                    {
+                    "original": "az-AZ-Latn",
+                    "changeTo": "az"
+                    },
+                    {
+                    "original": "eu-ES",
+                    "changeTo": "eu"
+                    },
+                    {
+                    "original": "be-BY",
+                    "changeTo": "be"
+                    },
+                    {
+                    "original": "bg-BG",
+                    "changeTo": "bg"
+                    },
+                    {
+                    "original": "ca-ES",
+                    "changeTo": "ca"
+                    },
+                    {
+                    "original": "zh-HK",
+                    "changeTo": "zh-TW"
+                    },
+                    {
+                    "original": "zh-MO",
+                    "changeTo": "zh-TW"
+                    },
+                    {
+                    "original": "zh-TW",
+                    "changeTo": "zh-TW"
+                    },
+                    {
+                    "original": "zh-CN",
+                    "changeTo": "zh"
+                    },
+                    {
+                    "original": "zh-CHS",
+                    "changeTo": "zh"
+                    },
+                    {
+                    "original": "zh-SG",
+                    "changeTo": "zh"
+                    },
+                    {
+                    "original": "zh-CHT",
+                    "changeTo": "zh"
+                    },
+                    {
+                    "original": "hr-HR",
+                    "changeTo": "hr"
+                    },
+                    {
+                    "original": "cs-CZ",
+                    "changeTo": "cs"
+                    },
+                    {
+                    "original": "da-DK",
+                    "changeTo": "da"
+                    },
+                    {
+                    "original": "div-MV",
+                    "changeTo": "div"
+                    },
+                    {
+                    "original": "nl-BE",
+                    "changeTo": "nl"
+                    },
+                    {
+                    "original": "nl-NL",
+                    "changeTo": "nl"
+                    },
+                    {
+                    "original": "en-AU",
+                    "changeTo": "en"
+                    },
+                    {
+                    "original": "en-BZ",
+                    "changeTo": "en"
+                    },
+                    {
+                    "original": "en-CA",
+                    "changeTo": "en"
+                    },
+                    {
+                    "original": "en-CB",
+                    "changeTo": "en"
+                    },
+                    {
+                    "original": "en-IE",
+                    "changeTo": "en"
+                    },
+                    {
+                    "original": "en-JM",
+                    "changeTo": "en"
+                    },
+                    {
+                    "original": "en-NZ",
+                    "changeTo": "en"
+                    },
+                    {
+                    "original": "en-PH",
+                    "changeTo": "en"
+                    },
+                    {
+                    "original": "en-ZA",
+                    "changeTo": "en"
+                    },
+                    {
+                    "original": "en-TT",
+                    "changeTo": "en"
+                    },
+                    {
+                    "original": "en-GB",
+                    "changeTo": "en"
+                    },
+                    {
+                    "original": "en-US",
+                    "changeTo": "en"
+                    },
+                    {
+                    "original": "en-ZW",
+                    "changeTo": "en"
+                    },
+                    {
+                    "original": "et-EE",
+                    "changeTo": "et"
+                    },
+                    {
+                    "original": "fo-FO",
+                    "changeTo": "fo"
+                    },
+                    {
+                    "original": "fa-IR",
+                    "changeTo": "fa"
+                    },
+                    {
+                    "original": "fi-FI",
+                    "changeTo": "fi"
+                    },
+                    {
+                    "original": "fr-BE",
+                    "changeTo": "fr"
+                    },
+                    {
+                    "original": "fr-CA",
+                    "changeTo": "fr"
+                    },
+                    {
+                    "original": "fr-FR",
+                    "changeTo": "fr"
+                    },
+                    {
+                    "original": "fr-LU",
+                    "changeTo": "fr"
+                    },
+                    {
+                    "original": "fr-MC",
+                    "changeTo": "fr"
+                    },
+                    {
+                    "original": "fr-CH",
+                    "changeTo": "fr"
+                    },
+                    {
+                    "original": "gl-ES",
+                    "changeTo": "gl"
+                    },
+                    {
+                    "original": "ka-GE",
+                    "changeTo": "ka"
+                    },
+                    {
+                    "original": "de-AT",
+                    "changeTo": "de"
+                    },
+                    {
+                    "original": "de-DE",
+                    "changeTo": "de"
+                    },
+                    {
+                    "original": "de-LI",
+                    "changeTo": "de"
+                    },
+                    {
+                    "original": "de-LU",
+                    "changeTo": "de"
+                    },
+                    {
+                    "original": "de-CH",
+                    "changeTo": "de"
+                    },
+                    {
+                    "original": "el-GR",
+                    "changeTo": "el"
+                    },
+                    {
+                    "original": "gu-IN",
+                    "changeTo": "gu"
+                    },
+                    {
+                    "original": "he-IL",
+                    "changeTo": "he"
+                    },
+                    {
+                    "original": "hi-IN",
+                    "changeTo": "hi"
+                    },
+                    {
+                    "original": "hu-HU",
+                    "changeTo": "hu"
+                    },
+                    {
+                    "original": "is-IS",
+                    "changeTo": "is"
+                    },
+                    {
+                    "original": "id-ID",
+                    "changeTo": "id"
+                    },
+                    {
+                    "original": "it-IT",
+                    "changeTo": "it"
+                    },
+                    {
+                    "original": "it-CH",
+                    "changeTo": "it"
+                    },
+                    {
+                    "original": "ja-JP",
+                    "changeTo": "ja"
+                    },
+                    {
+                    "original": "jp",
+                    "changeTo": "ja"
+                    },
+                    {
+                    "original": "kn-IN",
+                    "changeTo": "kn"
+                    },
+                    {
+                    "original": "kk-KZ",
+                    "changeTo": "kk"
+                    },
+                    {
+                    "original": "kok-IN",
+                    "changeTo": "kok"
+                    },
+                    {
+                    "original": "ko-KR",
+                    "changeTo": "ko"
+                    },
+                    {
+                    "original": "ky-KZ",
+                    "changeTo": "ky"
+                    },
+                    {
+                    "original": "lv-LV",
+                    "changeTo": "lv"
+                    },
+                    {
+                    "original": "lt-LT",
+                    "changeTo": "lt"
+                    },
+                    {
+                    "original": "mk-MK",
+                    "changeTo": "mk"
+                    },
+                    {
+                    "original": "ms-BN",
+                    "changeTo": "ms"
+                    },
+                    {
+                    "original": "ms-MY",
+                    "changeTo": "ms"
+                    },
+                    {
+                    "original": "mr-IN",
+                    "changeTo": "mr"
+                    },
+                    {
+                    "original": "mn-MN",
+                    "changeTo": "mn"
+                    },
+                    {
+                    "original": "nb-NO",
+                    "changeTo": "nb"
+                    },
+                    {
+                    "original": "nn-NO",
+                    "changeTo": "nn"
+                    },
+                    {
+                    "original": "pl-PL",
+                    "changeTo": "pl"
+                    },
+                    {
+                    "original": "pt-BR",
+                    "changeTo": "pt"
+                    },
+                    {
+                    "original": "pt-PT",
+                    "changeTo": "pt"
+                    },
+                    {
+                    "original": "pa-IN",
+                    "changeTo": "pa"
+                    },
+                    {
+                    "original": "ro-RO",
+                    "changeTo": "ro"
+                    },
+                    {
+                    "original": "ru-RU",
+                    "changeTo": "ru"
+                    },
+                    {
+                    "original": "sa-IN",
+                    "changeTo": "sa"
+                    },
+                    {
+                    "original": "sk-SK",
+                    "changeTo": "sk"
+                    },
+                    {
+                    "original": "sl-SI",
+                    "changeTo": "sl"
+                    },
+                    {
+                    "original": "es-AR",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-BO",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-CL",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-CO",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-CR",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-DO",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-EC",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-SV",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-GT",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-HN",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-MX",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-NI",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-PA",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-PY",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-PE",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-PR",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-ES",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-UY",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "es-VE",
+                    "changeTo": "es"
+                    },
+                    {
+                    "original": "sw-KE",
+                    "changeTo": "sw"
+                    },
+                    {
+                    "original": "sv-FI",
+                    "changeTo": "sv"
+                    },
+                    {
+                    "original": "sv-SE",
+                    "changeTo": "sv"
+                    },
+                    {
+                    "original": "syr-SY",
+                    "changeTo": "syr"
+                    },
+                    {
+                    "original": "ta-IN",
+                    "changeTo": "ta"
+                    },
+                    {
+                    "original": "tt-RU",
+                    "changeTo": "tt"
+                    },
+                    {
+                    "original": "te-IN",
+                    "changeTo": "te"
+                    },
+                    {
+                    "original": "th-TH",
+                    "changeTo": "th"
+                    },
+                    {
+                    "original": "tr-TR",
+                    "changeTo": "tr"
+                    },
+                    {
+                    "original": "uk-UA",
+                    "changeTo": "uk"
+                    },
+                    {
+                    "original": "ur-PK",
+                    "changeTo": "ur"
+                    },
+                    {
+                    "original": "uz-UZ-Cyrl",
+                    "changeTo": "uz"
+                    },
+                    {
+                    "original": "uz-UZ-Latn",
+                    "changeTo": "uz"
+                    },
+                    {
+                    "original": "vi-VN",
+                    "changeTo": "vi"
+                    }
+                    ]
+}
