@@ -121,7 +121,7 @@ DESC
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-  s.frameworks = "Foundation","UIKit","CFNetwork","SystemConfiguration","JavaScriptCore","GLKit","OpenGLES","CoreGraphics","QuartzCore","CoreLocation","CoreTelephony","AdSupport","Security"
+s.frameworks = "Foundation","UIKit","CFNetwork","SystemConfiguration","JavaScriptCore","GLKit","OpenGLES","CoreGraphics","QuartzCore","CoreLocation","CoreTelephony","AdSupport","Security"
   s.libraries = "stdc++", "z","c++","icucore"
   # s.library   = "iconv"
 
