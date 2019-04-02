@@ -24,11 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-仅仅是个测试123123123132
-                   DESC
+  s.description  = 'SDKApha'
 
-  s.homepage     = "https://github.com/shywoody/FrameworkTest.git"
+  s.homepage     = "https://github.com/shywoody/Echat_Test.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -107,8 +105,8 @@ Pod::Spec.new do |s|
 
  # s.resource  = "Resource/EchatResouce.bundle"
    s.resources = "Resource/EchatResouce.bundle"
-  s.source_files = 'EchatCommon/EchatCommon.framework/Headers/*.{h}','EchatCommon/EchatCommon.framework/Headers/*.{h}'
-  s.ios.vendored_frameworks = 'EchatCommon/EchatCommon.framework'
+  s.source_files = 'EchatCommon/EchatCommon.framework/Headers/*.{h}','EchatVisitorPort/EchatVisitorPort.framework/Headers/*.{h}'
+  s.ios.vendored_frameworks = 'EchatCommon/EchatCommon.framework','EchatVisitorPort/EchatVisitorPort.framework'
 
 # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -139,5 +137,6 @@ Pod::Spec.new do |s|
  # s.dependency "JSONKit", "~> 1.4"
 s.dependency 'AMap3DMap','6.2.0'
 s.dependency 'AMapSearch','6.1.0'
-s.dependency 'AMapFoundation','1.5.0'
+s.dependency 'AFNetworking'
+s.dependency 'SDWebImage'
 end
