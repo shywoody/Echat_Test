@@ -1,6 +1,0 @@
-framework module EchatVisitorPort {
-  umbrella header "EchatVisitorPort.h"
-
-  export *
-  module * { export * }
-}

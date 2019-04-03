@@ -26,21 +26,24 @@ FOUNDATION_EXPORT const unsigned char EchatVisitorPortVersionString[];
 #import "Echat_unReadMsg.h"
 #import "EchatInfo.h"
 
-#if __has_include(<SDWebImage/UIImageView+WebCache.h>)
-#import <SDWebImage/UIImageView+WebCache.h>
-#import <SDWebImage/UIView+WebCache.h>
-#import <SDWebImage/SDWebImageManager.h>
-#else
-#import "UIImageView+WebCache.h"
-#import "SDWebImageManager.h"
-#import "UIView+WebCache.h"
-#endif
-#if __has_include(<AFNetworking/AFNetworking.h>)
-#import <AFNetworking/AFNetworking.h>
-#else
-#import "AFNetworking.h"
-#endif
-
+//#if __has_include(<SDWebImage/UIImageView+WebCache.h>)
+//#import <SDWebImage/UIImageView+WebCache.h>
+//#import <SDWebImage/UIView+WebCache.h>
+//#import <SDWebImage/SDWebImageManager.h>
+//#import <SDWebImage/SDImageCacheConfig.h>
+//#import <SDWebImage/UIImage+MultiFormat.h>
+//#else
+//#import "UIImageView+WebCache.h"
+//#import "SDWebImageManager.h"
+//#import "UIView+WebCache.h"
+//#import "SDImageCacheConfig.h"
+//#import "UIImage+MultiFormat.h"
+//#endif
+//#if __has_include(<AFNetworking/AFNetworking.h>)
+//#import <AFNetworking/AFNetworking.h>
+//#else
+//#import "AFNetworking.h"
+//#endif
 
 
 
