@@ -49,6 +49,9 @@
 ///播放视频
 -(void)echat_bridge4playVideo:(NSString *)path;
 
+///播放音频
+-(void)echat_bridge4playAudio:(NSURL *)path;
+
 ///打开下载文件
 -(void)echat_bridge4OpenDownLoadFile:(NSString *)name;
 
@@ -111,12 +114,12 @@
 
 @protocol EchatPVPP <NSObject>
 ///播放音频
-- (void)createAudioPlayer:(NSString *)url;
+- (void)createAudioPlayer:(NSURL *)url;
 @end
 
 @protocol EchatAVPPP <NSObject>
 ///播放
-- (void)creatAVPlerController:(__kindof UIViewController *)controller url:(NSString *)url;
+- (void)creatAVPlerController:(__kindof UIViewController *)controller url:(NSURL * )url;
 @end
 
 @protocol EchatDBPP <NSObject>

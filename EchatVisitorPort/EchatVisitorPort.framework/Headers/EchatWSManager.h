@@ -42,6 +42,9 @@ typedef void(^UnReadMsgCountBlock)(NSInteger count);
 //远程推送参数
 @property(nonatomic,copy) NSString * pushInfo;
 
+//是否是三方推送标识
+@property(nonatomic,assign,readonly) BOOL isTP;
+
 
 +(instancetype)share;
 

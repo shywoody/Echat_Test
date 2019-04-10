@@ -17,7 +17,7 @@
 -(void)echat_closeDefaultNotification:(BOOL)isClose;
 -(void)echat_closeDefaultLocationFunction:(BOOL)isClose;
 -(void)echat_sendLocationInfo:(NSDictionary *)info;
-
++(void)echat_registPushInfo:(NSString *)pushInfo isThirdPush:(BOOL)istp;
 ///文件缓存大小
 +(double)getMemorySize;
 //清除缓存
