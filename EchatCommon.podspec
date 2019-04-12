@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EchatCommon"
-  s.version      = "1.1.4"
+  s.version      = "1.1.5"
   s.summary      = "be happy,my friend"
 
   # This description is used to generate tags and improve search results.
@@ -143,6 +143,7 @@ s.frameworks = "Foundation","UIKit","CFNetwork","SystemConfiguration","JavaScrip
  s.dependency 'AMapFoundation'
  s.dependency 'AFNetworking'
  s.dependency 'SDWebImage'
+ s.dependency 'SSZipArchive'
   #s.dependency 'AMap3DMap','6.2.0'
   #s.dependency 'AMapSearch','6.1.0'
  #s.dependency 'AMapFoundation','1.5.0'
