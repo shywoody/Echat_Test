@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/EchatHandShakeModel.h</key>
 		<data>
-		he+US3/xu9Z8bpNlaSk1LgCjPuk=
+		sKfAoTNXt3LILmhNiX0IQywARFI=
 		</data>
 		<key>Headers/EchatInfo.h</key>
 		<data>
-		J7nnEmiWy2ksbtqlsk5Zoi+BbyU=
+		JTOCRod5wawo0A001NLZ8OD5clY=
 		</data>
 		<key>Headers/EchatMethodTool.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/EchatPMWarehouse.h</key>
 		<data>
-		/q3f+q4flBTVBlvYpbuo0px5+5I=
+		130yN3xnu2imfWwFNdMIXDDJSYU=
 		</data>
 		<key>Headers/EchatRouteEntranceInfoModel.h</key>
 		<data>
@@ -34,11 +34,7 @@
 		</data>
 		<key>Headers/EchatSDK.h</key>
 		<data>
-		bf4w2XHaBb0FGB60beYH6ofV0hE=
-		</data>
-		<key>Headers/EchatStatusManager.h</key>
-		<data>
-		ydNfgFJjsjdhJKsGhtX7Y+RJLYQ=
+		3c1gSBfs7O2r0DOHGl4DS3FX+hM=
 		</data>
 		<key>Headers/EchatViewController.h</key>
 		<data>
@@ -46,7 +42,7 @@
 		</data>
 		<key>Headers/EchatVisitorPort.h</key>
 		<data>
-		I+nOpLXlmvYUBqCH7jLILpBlwXg=
+		Av1Hrwx24BPAj3yqKmiLuWYOoj4=
 		</data>
 		<key>Headers/EchatWSManager.h</key>
 		<data>
@@ -66,7 +62,7 @@
 		</data>
 		<key>Headers/Echat_visEvtModel.h</key>
 		<data>
-		o6m4VT2YiTd9WH5yfnZv0Oqx8vo=
+		LvSY4PwCCrRZTfvDYrB0PtL7ShQ=
 		</data>
 		<key>Headers/NSObject+EchatModel.h</key>
 		<data>
@@ -74,7 +70,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5VKOphOrHoCHRTSLGSSkqH2+x5g=
+		UYP6Xm0HjpTMiXuXg6RWKrOzsLo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -94,22 +90,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			he+US3/xu9Z8bpNlaSk1LgCjPuk=
+			sKfAoTNXt3LILmhNiX0IQywARFI=
 			</data>
 			<key>hash2</key>
 			<data>
-			v/Xr3YykLyskZFWuLrucWEAzzVVykxvegUgqNW3kKGk=
+			onzXC1Odw47fZ7D9cMiywLvuiwsano6c6+pEq6nK9LM=
 			</data>
 		</dict>
 		<key>Headers/EchatInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J7nnEmiWy2ksbtqlsk5Zoi+BbyU=
+			JTOCRod5wawo0A001NLZ8OD5clY=
 			</data>
 			<key>hash2</key>
 			<data>
-			1HxSpp09pYQMJujbYom8dy2zeu+Yntx70pVxJIcCXFI=
+			9kduLELEVvH2nnOk60j+fGN/5xIZLkHQjLIUY+Xtl50=
 			</data>
 		</dict>
 		<key>Headers/EchatMethodTool.h</key>
@@ -138,11 +134,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/q3f+q4flBTVBlvYpbuo0px5+5I=
+			130yN3xnu2imfWwFNdMIXDDJSYU=
 			</data>
 			<key>hash2</key>
 			<data>
-			S8L5D2ms8Z8j16tFuz9OpGijRuEjSlQ58aXjUOga5mE=
+			HWCTbQqgQ1VmAZXhqa2QJKSg1p87asyX0I0i3/ZTJXk=
 			</data>
 		</dict>
 		<key>Headers/EchatRouteEntranceInfoModel.h</key>
@@ -160,22 +156,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bf4w2XHaBb0FGB60beYH6ofV0hE=
+			3c1gSBfs7O2r0DOHGl4DS3FX+hM=
 			</data>
 			<key>hash2</key>
 			<data>
-			TV1vhP3ZwytEh5Fkfyfgog33O6QMLwK/aDQPYFJMXJ4=
-			</data>
-		</dict>
-		<key>Headers/EchatStatusManager.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ydNfgFJjsjdhJKsGhtX7Y+RJLYQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			J6OS0V4Ii+CF9FBOtTOVvAF88sM2DzcUbmTjwoA3E9s=
+			dq+H+uAr/2aQ1syYwOuI9Q+MfLmno8ZXrxGqHtipAMM=
 			</data>
 		</dict>
 		<key>Headers/EchatViewController.h</key>
@@ -193,11 +178,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I+nOpLXlmvYUBqCH7jLILpBlwXg=
+			Av1Hrwx24BPAj3yqKmiLuWYOoj4=
 			</data>
 			<key>hash2</key>
 			<data>
-			EQ5LjYfWRDwo6UgE3+8JLjLoALuB4R2R1iWZjw/puzM=
+			yOCQ7SM10BBRh1C0puw1vx3aqKbC4gPcL9Grp8usf/Y=
 			</data>
 		</dict>
 		<key>Headers/EchatWSManager.h</key>
@@ -248,11 +233,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o6m4VT2YiTd9WH5yfnZv0Oqx8vo=
+			LvSY4PwCCrRZTfvDYrB0PtL7ShQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			suSia7cHPaqrREB4BaxqLSYVy0q2v2NNYgHz3Q/fSVE=
+			cUCfgN/c5QvEOL62gszhgeJ5Z6K5JKIGQVk5nzdHAhg=
 			</data>
 		</dict>
 		<key>Headers/NSObject+EchatModel.h</key>

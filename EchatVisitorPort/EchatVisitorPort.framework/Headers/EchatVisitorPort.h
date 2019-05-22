@@ -20,7 +20,7 @@ FOUNDATION_EXPORT const unsigned char EchatVisitorPortVersionString[];
 #import "EchatViewController.h"
 #import "Echat_accessConditions.h"
 #import "EchatWSManager.h"
-#import "EchatStatusManager.h"
+//#import "EchatStatusManager.h"
 #import "EchatPMWarehouse.h"
 #import "EchatWebSocket.h"
 #import "Echat_unReadMsg.h"

@@ -11,4 +11,5 @@
 typedef void(^Echat_sendLocationBlock)(NSDictionary * data);
 @interface Echat_LocationVC : UIViewController
 @property(nonatomic,copy) Echat_sendLocationBlock sendLocationCallBack;
+- (instancetype)initWithMapKey:(NSString * )mapKey;
 @end
