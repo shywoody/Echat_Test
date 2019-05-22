@@ -18,6 +18,8 @@
 -(void)echat_closeDefaultLocationFunction:(BOOL)isClose;
 -(void)echat_sendLocationInfo:(NSDictionary *)info;
 +(void)echat_registPushInfo:(NSString *)pushInfo isThirdPush:(BOOL)istp;
+///远程推送含有未读消息总数的处理
++(void)increase:(NSInteger)count;
 ///文件缓存大小
 +(double)getMemorySize;
 //清除缓存

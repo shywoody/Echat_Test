@@ -19,9 +19,10 @@
 -(void)echat_CallJSWithFunctionWithFunctionName:(NSString *)functionName andValue:(id)value;
 -(void)echat_CallJSWhenConnectWithFunctionName:(NSString *)functionName andValue:(id)value;
 -(void)removeHUD;
--(void)echat_Error:(int)code;
+-(void)echat_Error:(int)code title:(NSString *)title data:(NSDictionary *)dict;
 -(void)echat_internationalizationConfigure:(NSString * )configure;
--(void)echat_UICode:(int)code data:(NSDictionary *)dict;
+-(void)echat_UICode:(int)code title:(NSString *)title data:(NSDictionary *)dict;
+-(void)echat_Re3;
 @end
 
 @protocol EchatJSBridgeDelegate<NSObject>
@@ -77,6 +78,12 @@
 
 -(void)echat_bridge4CheckConnection;
 
+-(void)echat_destoryView;
+
+-(void)echat_hideCloseBtn:(BOOL)ishidden;
+
+-(void)echat_setNavTitle:(NSString *)title;
+
 -(void)tes:(int)code;
 @end
 
@@ -87,6 +94,7 @@
 -(void)getUpLoadTokenWithType:(Echat_UPLoadFileType)type andClientFileId:(NSString *)clientFileId andVoiceDuration:(NSInteger)duration;
 //-(void)getUpLoadTokenWithType:(Echat_UPLoadFileType)type andVoiceDuration:(NSInteger)duration;
 -(void)sendEtChat:(NSString *)string value:(NSDictionary *)dict;
+-(void)removeTube;
 -(void)closeChat;
 @end
 
@@ -157,7 +165,8 @@
 -(NSDictionary *)getDownLoadFileData:(NSString *)fileIdentity;
 -(void)updateFileStateWith:(NSString *)identity status:(int)status complete:(void(^)(NSDictionary * dataDict))complete;
 -(void)resendFileWith:(NSString *)clientFileId complete:(void(^)(NSDictionary * dataDict))complete;
-
+-(void)updateLanConfigureWith:(NSDictionary *)dict;
+-(void)getLanConfigureWithlanKey:(NSString *)lanKey complete:(void(^)(NSDictionary * configure))complete;
 @end
 
 

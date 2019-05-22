@@ -22,6 +22,8 @@ UIKIT_EXTERN NSString * const EchatWSMessageTableName;
 ///TalkID --- tableName
 UIKIT_EXTERN NSString * const EchatTalkIdTableName;
 
+UIKIT_EXTERN NSString * const EchatConfigureTableName;
+
 //noti
 UIKIT_EXTERN NSString * const Echat_CloseChat;
 
@@ -88,7 +90,8 @@ typedef NS_ENUM (NSInteger, EChatConversationStatus) {
     EchatReContectWS = 11, //重连WS
     EchatWait4Serve = 12,//排队状态
     EchatReconnectChat = 13, //重连对话
-    EchatDisConnect = 14
+    EchatDisConnect = 14,
+    EChatConversationThirdURL = 15,//留言跳转
 };
 
 ///上传文件类型

@@ -29,9 +29,9 @@
 @property (nonatomic,copy) NSString  * fileUploadUrl;
 @property (nonatomic,copy) NSString  * localPushRule;   ///本地推送规则
 @property (nonatomic,copy) NSString  * remotePushRule; ///远程推送规则
+@property (nonatomic,strong) NSString  * routeEntranceInfoString;
 @property (nonatomic,strong) EchatRouteEntranceInfoModel  * routeEntranceInfo;
 @property(nonatomic,strong) NSString * i18nConfig;
-//@property (nonatomic,strong) NSDictionary  * routeEntranceInfo;
 @property (nonatomic,copy) NSString  * sessionId;
 @property (nonatomic,assign) NSInteger   tm;
 @property (nonatomic,copy) NSString  * unreadMsgRule;///未读消息规则

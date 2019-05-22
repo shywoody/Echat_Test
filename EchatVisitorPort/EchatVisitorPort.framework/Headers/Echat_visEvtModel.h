@@ -17,13 +17,13 @@
 @property (nonatomic,copy) NSString  * imageUrl;
 @property (nonatomic,copy) NSString  * memo;
 @property (nonatomic,copy) NSString  * title;
-@property (nonatomic,copy) NSString  * url;
+//@property (nonatomic,copy) NSString  * url;
 
 /////图文消息提供给访客打开的url
-//@property(nonatomic,copy) NSString * urlForVisitor;
+@property(nonatomic,copy) NSString * urlForVisitor;
 //
 /////图文消息提供给客服打开的url，可以为空
-//@property(nonatomic,copy) NSString * urlForStaff;
+@property(nonatomic,copy) NSString * urlForStaff;
 
 ///图文消息的可见范围.1:访客客服都可见（默认）2:只有客服可见，访客不可见
 @property(nonatomic,strong) NSNumber *  visibility;
