@@ -167,6 +167,7 @@
 -(void)resendFileWith:(NSString *)clientFileId complete:(void(^)(NSDictionary * dataDict))complete;
 -(void)updateLanConfigureWith:(NSDictionary *)dict;
 -(void)getLanConfigureWithlanKey:(NSString *)lanKey complete:(void(^)(NSDictionary * configure))complete;
+-(void)is655MsgTalkIdShouldBeMerged:(void(^)(BOOL mergeFlag))complete;
 @end
 
 
