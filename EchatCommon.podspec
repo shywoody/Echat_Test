@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EchatCommon"
-  s.version      = "1.2.1"
+  s.version      = "1.2.1.1"
   s.summary      = "be happy,my friend"
 
   # This description is used to generate tags and improve search results.
@@ -106,9 +106,9 @@ DESC
   #
 
  # s.resource  = "Resource/EchatResouce.bundle"
-   s.resources = "Resource/EchatResource.bundle"
-  s.source_files = 'EchatCommon/EchatCommon.framework/Headers/*.{h}','EchatVisitorPort/EchatVisitorPort.framework/Headers/*.{h}'
-  s.ios.vendored_frameworks = 'EchatCommon/EchatCommon.framework','EchatVisitorPort/EchatVisitorPort.framework'
+ #  s.resources = "Resource/EchatResource.bundle"
+  s.source_files = 'EchatCommon/EchatCommon.framework/Headers/*.{h}'
+  s.ios.vendored_frameworks = 'EchatCommon/EchatCommon.framework'
 
 # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -141,9 +141,6 @@ s.frameworks = "Foundation","UIKit","CFNetwork","SystemConfiguration","JavaScrip
  s.dependency 'AMap3DMap'
  s.dependency 'AMapSearch'
  s.dependency 'AMapFoundation'
- s.dependency 'AFNetworking'
- s.dependency 'SDWebImage'
- s.dependency 'SSZipArchive'
   #s.dependency 'AMap3DMap','6.2.0'
   #s.dependency 'AMapSearch','6.1.0'
  #s.dependency 'AMapFoundation','1.5.0'
