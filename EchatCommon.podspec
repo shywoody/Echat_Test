@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EchatCommon"
-  s.version      = "1.9.1.5"
+  s.version      = "1.9.1.6"
   s.summary      = "be happy,my friend"
 
   # This description is used to generate tags and improve search results.
