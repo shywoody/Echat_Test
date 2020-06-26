@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EchatCommon"
-  s.version      = "2.0.0.2"
+  s.version      = "2.0.0.3"
   s.summary      = "be happy,my friend"
 
   # This description is used to generate tags and improve search results.
@@ -64,8 +64,7 @@ DESC
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
-  s.platform     = :ios, "9.0"
+ s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   s.ios.deployment_target = "9.0"
@@ -138,9 +137,9 @@ s.frameworks = "Foundation","UIKit","CFNetwork","SystemConfiguration","JavaScrip
  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
  # s.dependency "JSONKit", "~> 1.4"
 
-    s.dependency 'AMap3DMap'
-    s.dependency 'AMapSearch'
-    s.dependency 'AMapFoundation'
+s.dependency 'AMap3DMap'
+s.dependency 'AMapSearch'
+s.dependency 'AMapFoundation'
 # s.dependency 'AMap3DMap','6.2.0'
 # s.dependency 'AMapSearch','6.1.0'
 # s.dependency 'AMapFoundation','1.5.0'
