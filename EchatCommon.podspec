@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "EchatCommon"
-  s.version      = "2.1.0.3"
+  s.version      = "2.1.0.4"
   s.summary      = "be happy,my friend"
 
   # This description is used to generate tags and improve search results.
@@ -137,12 +137,12 @@ s.frameworks = "Foundation","UIKit","CFNetwork","SystemConfiguration","JavaScrip
  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
  # s.dependency "JSONKit", "~> 1.4"
 
-s.dependency 'AMap3DMap'
-s.dependency 'AMapSearch'
-s.dependency 'AMapFoundation'
-#s.dependency 'AMap3DMap','7.4.0'
-#s.dependency 'AMapSearch','7.3.0'
-#s.dependency 'AMapFoundation','1.6.3'
+#s.dependency 'AMap3DMap'
+#s.dependency 'AMapSearch'
+#s.dependency 'AMapFoundation'
+s.dependency 'AMap3DMap','7.4.0'
+s.dependency 'AMapSearch','7.3.0'
+s.dependency 'AMapFoundation','1.6.3'
  #s.dependency 'AFNetworking'
  #s.dependency 'SDWebImage'
 end
