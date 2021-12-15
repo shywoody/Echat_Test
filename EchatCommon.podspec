@@ -120,10 +120,14 @@ DESC
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-s.frameworks = "Foundation","UIKit","CFNetwork","SystemConfiguration","JavaScriptCore","GLKit","OpenGLES","CoreGraphics","QuartzCore","CoreLocation","CoreTelephony","AdSupport","Security"
+  s.frameworks = "Foundation","UIKit","CFNetwork","SystemConfiguration","JavaScriptCore","GLKit","OpenGLES","CoreGraphics","QuartzCore","CoreLocation","CoreTelephony","AdSupport","Security"
   s.libraries = "z","c++","icucore"
   # s.library   = "iconv"
 
+  spec.pod_target_xcconfig = {
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
